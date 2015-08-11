@@ -99,6 +99,11 @@ class ContactsController {
     	// Function to validate form data and return the results
     	$array = array();
     	$errors = array();
+    	
+    	if(!empty($errors)){
+    		return true;
+    	}
+    	
     }
     
 }
