@@ -97,7 +97,7 @@ class ContactsController {
     
     public function validate($data=array()) {
     	// Function to validate form data and return the results
-    	
+    	$array = array();
     }
     
 }
