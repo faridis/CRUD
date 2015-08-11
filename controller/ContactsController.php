@@ -95,5 +95,9 @@ class ContactsController {
         include 'view/error.php';
     }
     
+    public function errorGetMessage($error) {
+        return $error['message'];
+    }
+    
 }
 ?>
