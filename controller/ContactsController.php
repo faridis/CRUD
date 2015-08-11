@@ -95,6 +95,10 @@ class ContactsController {
         include 'view/error.php';
     }
     
+    /**
+     * Method to validate input data
+     * @param array $data
+     */
     public function validate($data=array()) {
     	// Function to validate form data and return the results
     	
